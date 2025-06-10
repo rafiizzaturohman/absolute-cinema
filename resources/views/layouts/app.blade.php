@@ -18,7 +18,7 @@
         @endif
     </head>
     
-    <body class="bg-gray-400 text-white max-w-7xl mx-auto my-3">
+    <body class="bg-gray-400/75 text-white max-w-7xl mx-auto my-3">
         <main class="bg-black rounded-2xl">
             <nav class="font-semibold px-20 py-6 border-b border-slate-400">
                 <ul class="flex flex-row justify-between text-center items-center">

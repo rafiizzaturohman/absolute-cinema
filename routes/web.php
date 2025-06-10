@@ -22,11 +22,7 @@ Route::get('/article2', function () {
 })
     ->name('article2');
     
-    Route::get('/menu', function () {
-        return view('bioskop.menu');
-    })->name('menu');
+Route::get('/menu', function () {
+    return view('bioskop.menu');
+})->name('menu');
     
-Route::get('/menu/list-cinema', function () {
-
-    return view('bioskop.listCinema');
-})->name('listCinema');
