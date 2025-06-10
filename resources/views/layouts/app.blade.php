@@ -23,7 +23,7 @@
             <nav class="font-semibold px-20 py-6 border-b border-slate-400">
                 <ul class="flex flex-row justify-between text-center items-center">
                     <li>
-                        <p class="font-black text-xl">Absolute Cinema</p>
+                        <a href="{{ route('bioskopMenu') }}" class="font-black text-xl">Absolute Cinema</a>
                     </li>
     
                     <div class="flex flex-row space-x-4">
@@ -35,6 +35,9 @@
                         </li>
                         <li>
                             <a href="#">My Favorites</a>
+                        </li>
+                        <li>
+                            <a href="{{ route('blog') }}">Blog</a>
                         </li>
                     </div>
                 </ul>

@@ -8,9 +8,9 @@ use Illuminate\Support\Facades\Route;
 // Auth::routes();
 
 Route::get('/', function () {
-    return view('blog');
+    return view('bioskop.menu');
 })
-    ->name('blog');
+    ->name('bioskopMenu');
 
 Route::get('/article1', function () {
     return view('articles.article1');
@@ -22,7 +22,7 @@ Route::get('/article2', function () {
 })
     ->name('article2');
     
-Route::get('/menu', function () {
-    return view('bioskop.menu');
-})->name('menu');
+Route::get('/blog', function () {
+    return view('blog');
+})->name('blog');
     
